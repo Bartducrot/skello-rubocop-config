@@ -1,0 +1,1 @@
+## Skello rubocop configuration
