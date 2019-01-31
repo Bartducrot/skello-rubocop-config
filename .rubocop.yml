@@ -62,7 +62,9 @@ RegexpLiteral:
 # Makes it easier to add/remove lines,
 # also nicely keeps consistency with good JS style
 # (although not the end goal)
-Style/TrailingCommaInLiteral:
+Style/TrailingCommaInArrayLiteral:
+  EnforcedStyleForMultiline: consistent_comma
+Style/TrailingCommaInHashLiteral:
   EnforcedStyleForMultiline: consistent_comma
 
 # Having nested ifs can be useful if you're looking to refacto.
@@ -120,6 +122,8 @@ Metrics/CyclomaticComplexity:
 Metrics/MethodLength:
   Enabled: true
   Max: 50
+Metrics/ModuleLength:
+  Enabled: false
 Metrics/ParameterLists:
   Enabled: true
 Metrics/PerceivedComplexity:
