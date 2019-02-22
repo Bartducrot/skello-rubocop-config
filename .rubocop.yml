@@ -58,13 +58,10 @@ RegexpLiteral:
   AllowInnerSlashes: true
   EnforcedStyle: slashes
 
-# Hashes and arrays, if multiline, must end with a comma
 # Makes it easier to add/remove lines,
 # also nicely keeps consistency with good JS style
 # (although not the end goal)
-Style/TrailingCommaInArrayLiteral:
-  EnforcedStyleForMultiline: consistent_comma
-Style/TrailingCommaInHashLiteral:
+Style/TrailingCommaInLiteral:
   EnforcedStyleForMultiline: consistent_comma
 
 # Having nested ifs can be useful if you're looking to refacto.
